@@ -1,0 +1,23 @@
+# Java / Maven
+target/
+*.class
+*.log
+
+# Gradle, если проект когда-нибудь будет на Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Локальные настройки и секреты
+.env
+.env.*
+application-local.properties
+application-*.local
+
+# Операционные системы
+.DS_Store
+Thumbs.db
