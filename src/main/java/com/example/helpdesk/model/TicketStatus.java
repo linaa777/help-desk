@@ -1,7 +1,7 @@
 package com.example.helpdesk.model;
 
 public enum TicketStatus {
-    OPEN,
+    NEW,
     IN_PROGRESS,
-    CLOSED
+    RESOLVED
 }
