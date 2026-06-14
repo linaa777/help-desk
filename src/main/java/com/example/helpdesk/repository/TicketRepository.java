@@ -7,5 +7,4 @@ import java.util.List;
 
 public interface TicketRepository extends JpaRepository<Ticket, Long> {
     List<Ticket> findAllByOrderByCreatedAtDesc();
-    List<Ticket> findByStatus(TicketStatus status);
 }
